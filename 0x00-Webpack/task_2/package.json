@@ -16,7 +16,7 @@
     "output",
     "webpack_plugins"
   ],
-  "author": "Joseph Mahiuha",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.2.0",

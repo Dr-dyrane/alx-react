@@ -1,0 +1,6 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore generated files
+public/bundle.js
+public/bundle.js.*
