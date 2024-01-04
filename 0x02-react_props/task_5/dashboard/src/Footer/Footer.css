@@ -1,0 +1,13 @@
+/* Footer.css */
+
+.App-footer {
+  font-size: 1rem;
+  padding: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  font-style: italic;
+  border-top: 3px solid #e0354b;
+}
