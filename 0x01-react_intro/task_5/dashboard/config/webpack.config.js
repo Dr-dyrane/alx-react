@@ -43,7 +43,7 @@ module.exports = {
     hot: true,
     port: 8564,
   },
-  
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       name: "index.html",
