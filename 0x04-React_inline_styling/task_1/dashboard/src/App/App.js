@@ -81,6 +81,14 @@ const styles = StyleSheet.create({
     position: "relative",
     fontFamily: "Arial, Helvetica, sans-serif",
   },
+  body: {
+    // Define styling for the body
+    // For example: backgroundColor: 'lightblue', padding: '20px'
+  },
+  footer: {
+    // Define styling for the footer
+    // For example: backgroundColor: 'gray', padding: '10px', position: 'absolute', bottom: 0, width: '100%'
+  },
 });
 
 App.defaultProps = {
