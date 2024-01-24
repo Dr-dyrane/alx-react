@@ -7,7 +7,7 @@ const { fromJS } = require('immutable');
  * @param {Object} object - The plain JavaScript object to be converted.
  * @returns {Map} - Immutable Map created from the input object.
  */
-function getImmutableObject(object) {
+function getImmutableObject (object) {
   // Use fromJS to create an Immutable Map from the input object
   const immutableMap = fromJS(object);
 
