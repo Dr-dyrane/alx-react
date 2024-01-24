@@ -1,5 +1,5 @@
 // Import the necessary module from Immutable.js library
-import { Map } from 'immutable';
+import { fromJS } from 'immutable';
 
 /**
  * Accesses a nested value in a plain JavaScript object at the specified path.
@@ -9,11 +9,11 @@ import { Map } from 'immutable';
  * @returns {undefined|string|Map} - The value at the defined path.
  */
 export default function accessImmutableObject(object, array) {
-  // Use Map to create an Immutable Map from the input object
-  const immutableMap = Map(object);
+  // Use fromJS to create an Immutable Map from the input object
+  const immutableMap = fromJS(object);
 
   // Get the value at the specified path using getIn method
-  const value = immutableMap.getIn(array);
+  const value = immutableMap.getIn(array, undefined);
 
   // Return the resulting value
   return value;
