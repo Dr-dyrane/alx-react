@@ -18,7 +18,7 @@ export default function printBestStudents(object) {
 
   /**
    * Capitalizes the first letter of a string.
-   * 
+   *
    * @param {string} string - The input string.
    * @returns {string} - The string with the first letter capitalized.
    */
