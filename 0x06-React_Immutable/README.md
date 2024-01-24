@@ -24,6 +24,27 @@ By the end of this project, you should be able to:
 - Ensure equality in Immutable Maps.
 - Implement lazy Seq for efficient filtering of student data.
 
+#### 1. Immutable Objects
+Immutable objects are data structures that, once created, cannot be changed. In this project, you will learn the significance of using immutable objects and their impact on JavaScript applications.
+
+#### 2. Immutable.js Library
+Explore the Immutable.js library to bring immutability to JavaScript. Understand how to use its features and functions to create and manipulate immutable data structures.
+
+#### 3. List vs. Map
+Dive into the differences between List and Map in the context of Immutable.js. Learn when to use each data structure based on your specific requirements.
+
+#### 4. Operations with Immutable.js
+Implement essential operations like Merge, Concat, and Deep Merging using Immutable.js. Understand the syntax and usage of these functions to maintain immutability in your code.
+
+#### 5. Lazy Seq
+Explore the concept of lazy Seq and its applications. Learn how lazy sequences can improve performance by deferring the execution of operations until necessary.
+
+#### 6. Equality in Immutable Maps
+Understand how to ensure equality in Immutable Maps using the `is` function from the Immutable.js library. Explore scenarios where checking equality is crucial.
+
+#### 7. Lazy Seq for Efficient Filtering
+Implement a function using lazy Seq for efficient filtering of student data. Learn how to capitalize on lazy evaluation to optimize the filtering process.
+
 ### Requirements
 - Use specific versions of NodeJS (12.11.x) and npm (6.11.x).
 - Follow specific coding standards and file structure.
