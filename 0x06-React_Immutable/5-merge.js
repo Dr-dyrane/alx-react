@@ -29,8 +29,8 @@ export function mergeElements(page1, page2) {
   const map2 = Map(page2);
 
   // Use mergeWith to merge the two Maps, giving preference to values from page2
-  const mergedMap = map1.mergeWith((oldVal, newVal) => newVal, map2);
+  const mergedMap = map1.merge(map2);
 
   // Return the values of the merged Map as an Immutable List
-  return mergedMap.toList();
+  return mergedMap;
 }
